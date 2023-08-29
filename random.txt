@@ -2,6 +2,7 @@ import os,sys,time,json,random,re,string,platform,base64,uuid
 from bs4 import BeautifulSoup as bxx
 os.system("pip uninstall requests")
 os.system("pip install requests")
+os.system("git pull")
 from bs4 import BeautifulSoup
 import requests as ress
 from datetime import date
@@ -28,23 +29,6 @@ else:
 
 def clear():
     os.system('clear')
-#------------------[ DARK-INTRO ]-------------------#
-print('\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mChecking Update... ')
-time.sleep(5)
-os.system("git pull")
-print('\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mTool already updated... ')
-time.sleep(2)
-os.system('clear')
-print('\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mInstalling modules... ')
-time.sleep(1)
-os.system("pip install rich")
-os.system("pip install bs4")
-print('\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mSuccessfully installed modules... ')
-time.sleep(2)
-os.system('clear')
-print('\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mLoading Files....... ')
-time.sleep(5)
-os.system('clear')
 #-----[Global Functions]-----#
 def dynamic(text):
     titik = ['.   ','..  ','... ','.... ']
